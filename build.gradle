@@ -233,7 +233,7 @@ shadowJar {
         //noinspection GroovyAssignabilityCheck
         // include(dependency('org.languagetool:languagetool-core'))
         // include(dependency('org.languagetool:language-en'))
-        include(dependency('org.spongepowered:mixin'))
+        exclude(dependency('org.spongepowered:mixin'))
         include(dependency('club.minnced:java-discord-rpc:2.0.1'))
         include(dependency('club.minnced:discord-rpc-release:v3.3.0'))
         include(dependency('com.formdev:flatlaf:1.5'))

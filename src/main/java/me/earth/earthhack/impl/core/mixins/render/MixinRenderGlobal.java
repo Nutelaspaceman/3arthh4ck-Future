@@ -31,7 +31,8 @@ public abstract class MixinRenderGlobal implements IRenderGlobal
     // For Freecam too?
     @ModifyVariable(
         method = "setupTerrain",
-        at = @At("HEAD"))
+        at = @At("HEAD"),
+        argsOnly = true)
     private boolean setupTerrainHook(boolean playerSpectator)
     {
         if (XRAY.isEnabled() && XRAY.get().getMode() == XrayMode.Opacity)
