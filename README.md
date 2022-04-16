@@ -1,2 +1,2 @@
 # 3arthh4ck
-I fix stuff here from time to time.
+if earth updates something and you want me to change it here, just make an issue
